@@ -1,7 +1,7 @@
 import React from 'react'
 import './Hero.css'
 
-import hand_icon from '../Assets/hand_icon.png'
+import hand_icon from '../Assets/1.png'
 import arrow_icon from '../Assets/arrow.png'
 import hero_image from '../Assets/cd.png'
 
@@ -9,17 +9,17 @@ function Hero() {
   return (
     <div className='hero'>
       <div className="hero-left">
-        <h2>NEW ARRIWALS ONLY</h2>
+        <h2>PREMIUM QUALITY</h2>
         <div>
           <div className="hero-hand-icon">
-            <p>New</p>
+            <p>Food</p>
             <img src={hand_icon} alt="" />
           </div>
-          <p>Collections</p>
-          <p>for everyone</p>
+          <p>For our</p>
+          <p>Little friends</p>
         </div>
         <div className="hero-latest-btn">
-          <div>Latest Collections</div>
+          <div>The best choice</div>
           <img src={arrow_icon} alt="" />
         </div>
       </div>

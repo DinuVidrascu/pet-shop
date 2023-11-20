@@ -19,14 +19,14 @@ function Navbar() {
             <li onClick={() => { setMenu('shop') }}>
                <Link to='/' style={{ textDecoration: 'none' }}>Shop</Link>{menu === 'shop' ? <hr /> : <></>}
             </li>
-            <li onClick={() => { setMenu('mens') }}>
-               <Link to='/mens' style={{ textDecoration: 'none' }}>Dog</Link>{menu === 'mens' ? <hr /> : <></>}
+            <li onClick={() => { setMenu('dogs') }}>
+               <Link to='/dogs' style={{ textDecoration: 'none' }}>Dog</Link>{menu === 'dogs' ? <hr /> : <></>}
             </li>
-            <li onClick={() => { setMenu('womens') }}>
-               <Link to='/womens' style={{ textDecoration: 'none' }}>Cat</Link>{menu === 'womens' ? <hr /> : <></>}
+            <li onClick={() => { setMenu('cats') }}>
+               <Link to='/cats' style={{ textDecoration: 'none' }}>Cat</Link>{menu === 'cats' ? <hr /> : <></>}
             </li>
-            <li onClick={() => { setMenu('kids') }}>
-               <Link to='/kids' style={{ textDecoration: 'none' }}>Accessories</Link>{menu === 'kids' ? <hr /> : <></>}
+            <li onClick={() => { setMenu('accessories') }}>
+               <Link to='/accessories' style={{ textDecoration: 'none' }}>Accessories</Link>{menu === 'accessories' ? <hr /> : <></>}
             </li>
          </ul>
          <div className="nav-login-cart">
