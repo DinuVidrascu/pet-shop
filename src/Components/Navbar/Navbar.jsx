@@ -17,16 +17,16 @@ function Navbar() {
          </div>
          <ul className="nav-menu">
             <li onClick={() => { setMenu('shop') }}>
-               <Link to='/' style={{ textDecoration: 'none' }}>Shop</Link>{menu === 'shop' ? <hr /> : <></>}
+               <Link to='/' style={{ textDecoration: 'none', color: 'black' }}>Shop</Link>{menu === 'shop' ? <hr /> : <></>}
             </li>
             <li onClick={() => { setMenu('dogs') }}>
-               <Link to='/dogs' style={{ textDecoration: 'none' }}>Dog</Link>{menu === 'dogs' ? <hr /> : <></>}
+               <Link to='/dogs' style={{ textDecoration: 'none', color: 'black' }}>Dog</Link>{menu === 'dogs' ? <hr /> : <></>}
             </li>
             <li onClick={() => { setMenu('cats') }}>
-               <Link to='/cats' style={{ textDecoration: 'none' }}>Cat</Link>{menu === 'cats' ? <hr /> : <></>}
+               <Link to='/cats' style={{ textDecoration: 'none',color: 'black' }}>Cat</Link>{menu === 'cats' ? <hr /> : <></>}
             </li>
             <li onClick={() => { setMenu('accessories') }}>
-               <Link to='/accessories' style={{ textDecoration: 'none' }}>Accessories</Link>{menu === 'accessories' ? <hr /> : <></>}
+               <Link to='/accessories' style={{ textDecoration: 'none', color: 'black' }}>Accessories</Link>{menu === 'accessories' ? <hr /> : <></>}
             </li>
          </ul>
          <div className="nav-login-cart">

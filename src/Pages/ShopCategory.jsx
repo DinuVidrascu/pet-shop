@@ -21,7 +21,7 @@ function ShopCategory(props) {
       </div>
       <div className='shopcategory-products'>
         {all_product.map((item, i) => {
-          if (props.category===item.category) {
+          if (props.category === item.category) {
             return <Item key={i}
               id={item.id}
               name={item.name}
@@ -32,6 +32,9 @@ function ShopCategory(props) {
             return null
           }
         })}
+      </div>
+      <div className="shopcategory-loadmore">
+        Explore More
       </div>
     </div>
   )
