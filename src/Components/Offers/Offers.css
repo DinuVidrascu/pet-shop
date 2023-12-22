@@ -3,6 +3,7 @@
    height: 60vh;
    display: flex;
    margin: auto;
+   margin-top: 50px;
    padding: 0px 140px;
    margin-bottom: 150px;
    background: linear-gradient(180deg, #f9ffbf, #9efbea28 60%);

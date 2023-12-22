@@ -7,9 +7,9 @@ import Product from "./Pages/Product";
 import Cart from "./Pages/Cart";
 import LoginSignup from "./Pages/LoginSignup";
 import Footer from "./Components/Footer/Footer";
-import dog_banner from './Components/Assets/banner_mens.png';
+import dog_banner from './Components/Assets/dog_b.png';
 import cat_banner from './Components/Assets/cat_b.png'
-import accessories_banner from './Components/Assets/banner_kids.png'
+import accessories_banner from './Components/Assets/kp_b.png'
 
 
 function App() {

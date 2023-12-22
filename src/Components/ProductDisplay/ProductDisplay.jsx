@@ -11,12 +11,6 @@ function ProductDisplay(props) {
    return (
       <div className='productdisplay'>
          <div className="productdisplay-left">
-            <div className="productdisplay-img-list">
-               <img src={product.image} alt="" />
-               <img src={product.image} alt="" />
-               <img src={product.image} alt="" />
-               <img src={product.image} alt="" />
-            </div>
             <div className="productdisplay-img">
                <img className='productdisplay-main-img' src={product.image} alt="" />
             </div>
@@ -40,7 +34,7 @@ function ProductDisplay(props) {
                cum fugit culpa dolorem enim ipsam possimus, ipsum dolores qui expedita labore!
             </div>
             <div className="productdisplay-right-size">
-               <h1>Select Size</h1>
+               <h1>Select weight</h1>
                <div className="productdisplay-right-sizes">
                   <div>900g</div>
                   <div>2kg</div>
@@ -50,8 +44,8 @@ function ProductDisplay(props) {
                </div>
             </div>
             <button onClick={()=>{addToCart(product.id)}}>ADD TO CART</button>
-            <p className='productdisplay-right-category'><span>Category :</span>Cat , T-Shirt, Crop Top</p>
-            <p className='productdisplay-right-category'><span>Tags :</span>Modern, Latest</p>
+            <p className='productdisplay-right-category'><span>Category :</span> Dry food</p>
+            <p className='productdisplay-right-category'><span>Tags :</span> Modern, Latest</p>
          </div>
       </div>
    )
